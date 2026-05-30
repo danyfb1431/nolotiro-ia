@@ -407,11 +407,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 30px;
       text-decoration: none;
       box-shadow: 0 10px 25px rgba(0,0,0,0.25);
       z-index: 20;
     }
+    .whatsapp-logo {
+  width: 36px;
+  height: 36px;
+}
 
     footer {
       background: var(--azul-profundo);
@@ -478,7 +481,16 @@
   <iframe name="envioOculto" style="display:none;"></iframe>
 
   <!-- IMPORTANTE: reemplazar TU_NUMERO_DE_WHATSAPP por tu número real con código de país. Ejemplo Argentina: 5491123456789 -->
-  <a class="floating-whatsapp" href="https://wa.me/TU_NUMERO_DE_WHATSAPP?text=Hola%20NoLoTiro-IA%2C%20quiero%20consultar%20si%20conviene%20reparar%20mi%20aparato" target="_blank" title="Escribir por WhatsApp">☘</a>
+  <a 
+  class="floating-whatsapp" 
+  href="https://wa.me/5492234375799?text=Hola%20NoLoTiro-IA%2C%20quiero%20hacer%20una%20consulta" 
+  target="_blank" 
+  title="Escribir por WhatsApp">
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+    alt="WhatsApp" 
+    class="whatsapp-logo">
+</a>
 
   <header id="inicio">
     <div class="topbar">
