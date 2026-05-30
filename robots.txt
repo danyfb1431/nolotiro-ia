@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://danyfb1431.github.io/Nolotiro-ia/sitemap.xml
+Sitemap: https://danyfb1431.github.io/nolotiro-ia/sitemap.xml
